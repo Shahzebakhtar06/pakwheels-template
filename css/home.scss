@@ -1,0 +1,151 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Lato", Sans-Serif !important;
+    
+
+}
+a{
+    text-decoration: none !important;
+}
+.container {
+    max-width: calc(1320px - 120px) !important;
+    padding:0% !important;
+}
+
+.fit-width {
+    max-width: fit-content !important;
+}
+
+#login-header {
+    font-size: 14px;
+    color: #434343;
+}
+
+#login-header .container {
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+#login-menu li {
+
+    list-style-type: none;
+    padding-left:5px;
+    margin: auto 0px;
+    font-size: 13px;
+
+}
+#login-menu li.login::before{
+    content: "|";
+    color: rgba(123,131,151,0.7);
+    margin-right: 4px;
+}
+#login-header #login-menu {
+    display: flex;
+    justify-content: end;
+    margin: 0%;
+    // padding: 5px 0px;
+    margin-top: 5px;
+
+}
+
+#login-header #mobile-app {
+    padding: 5px 7px;
+
+}
+
+#login-header #mobile-app i {
+
+    font-size: 18px;
+
+    margin-right: 7px;
+    line-height: 16px;
+
+
+}
+
+// Main header start 
+#main-header img {
+    height: 40px;
+    margin: 13px 0px;
+}
+
+
+#main-menu {
+    display: inline-flex;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    font-size: 18px;
+    color: #7b8397;
+    position: relative;
+    flex-wrap: wrap;
+    margin-bottom: -12px;
+
+}
+
+
+// #main-menu >li {
+//     list-style: none;
+
+//     text-align: center;
+//     color: #434343;
+
+// }
+#main-header #main-menu>li {
+    float: left;
+    line-height: inherit;
+    list-style: none;
+    position: relative;
+}
+
+// #main-menu li a {
+//     text-decoration: none;
+//     color: #434343;
+// }
+#main-menu>li>a {
+    display: block;
+    height: 55px;
+    line-height: 53px;
+    padding: 0 22px;
+    color: #434343;
+    font-size: 16px;
+    transition: background-color .5s linear;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
+
+
+
+
+.srch-wrapper {
+    width: 100%;
+    display: flex;
+    border: 1px solid gainsboro;
+}
+
+.srch-wrapper input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.go-btn {
+
+    color: #fff;
+    background-color: #233d7b;
+    border-color: #1d3367;
+    padding: 5px 5px !important;
+
+
+}
+
+.go-btn:hover {
+    cursor: pointer;
+}
+
